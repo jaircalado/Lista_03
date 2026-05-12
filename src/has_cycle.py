@@ -1,6 +1,5 @@
 from src.my_node import MyNode
 
-
 def has_cycle(head: MyNode) -> bool:
     if head is None:
         return False
@@ -14,6 +13,5 @@ def has_cycle(head: MyNode) -> bool:
 
         if slow == fast:
             return True
-
+        
     return False
-
