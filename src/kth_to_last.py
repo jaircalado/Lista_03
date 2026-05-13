@@ -8,7 +8,7 @@ def kth_to_last(head: MyNode, k: int) -> int:
     for _ in range(k):
         if fast is None:
             return -1
-
+        
         fast = fast.next
 
     while fast is not None:
